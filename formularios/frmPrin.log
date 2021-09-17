@@ -1,0 +1,9 @@
+Line 26: Class TrayIconPrj.TrayIcon of control ticPrin was not a loaded control class.
+Line 29: The property name _ExtentX in ticPrin is invalid.
+Line 30: The property name _ExtentY in ticPrin is invalid.
+Line 31: The property name Icon in ticPrin is invalid.
+Line 34: The property name TrueClick in ticPrin is invalid.
+Line 36: The property name FlashSound in ticPrin is invalid.
+Line 37: The property name FlashIcon in ticPrin is invalid.
+Line 38: The property name FlashInterval in ticPrin is invalid.
+Line 39: The property name FlashEnabled in ticPrin is invalid.

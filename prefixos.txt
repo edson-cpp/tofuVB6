@@ -1,0 +1,62 @@
+ado	Adodc
+anm	Animation
+btn	CommandButton
+cbb	ComboBox
+cbr	CoolBar
+chk	CheckBox
+cls	Class Module
+cmd	Command ( Data Envinment )
+cnd	CommonDialog
+dbc	DBCombo
+dbg	DBGrid
+dbl	DBList
+dec	Data Envinment Connection
+dlb	DriveListBox
+dta	Data
+dtc	DataCombo
+dte	Data Envinment
+dtg	DataGrid
+dtl	DataList
+dtp	DTPicker
+dtr	DataRepeater
+fra	Frame
+fsb	FlatScrollBar
+hsb	HScrollBar
+icb	ImageCombo
+img	Image
+iml	ImageList
+lab	Label
+lin	Line
+lsb	ListBox
+lvw	ListView
+meb	MaskEdBox
+mfg	MSFlexGrid
+mhg	MSHFlexGrid
+mod	Module
+msc	MSChart
+msr	MSRDC
+mvw	MonthView
+nsp	NSPlay
+ole	OLE
+opt	OptionButton
+pgb	ProgressBar
+ptb	PictureBox
+rlb	DirListBox
+rtb	RichTextBox
+sbw	SubWizard
+scl	Scriptlet
+shp	Shape
+she	Sheet
+sld	Slider
+sst	SSTab
+stb	StatusBar
+tbb	ToolBar Button
+tbr	ToolBar
+tic	TrayIcon
+tmr	Timer
+tst	TabStrip
+tvw	TreeView
+txt	TextBox
+udw	UpDown
+vsb	VScrollBar
+wbb	WebBrowser

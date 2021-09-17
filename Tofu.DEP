@@ -1,0 +1,80 @@
+[Version]
+Version=0.0.0.12
+
+[PizzaTime.exe <0009>]
+Dest=$(AppPath)
+Date=03/12/2005
+Time=00:22
+Version=0.0.0.12
+CABFilename=PizzaTime.CAB
+CABINFFile=PizzaTime.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=MSDERUN.DLL
+Uses8=EXCEL.EXE
+Uses9=nscompat.tlb
+Uses10=MSBIND.DLL
+Uses11=MSRDO20.DLL
+Uses12=MSDBRPTR.DLL
+Uses13=MSDE.DLL
+Uses14=DAO350.dll
+Uses15=FM20.DLL
+Uses16=DBGRID32.OCX
+Uses17=DBLIST32.OCX
+Uses18=MSADODC.OCX
+Uses19=MSMASK32.OCX
+Uses20=MSDATGRD.OCX
+Uses21=MSDATLST.OCX
+Uses22=COMDLG32.OCX
+Uses23=MSDATREP.OCX
+Uses24=MSFLXGRD.OCX
+Uses25=MSHFLXGD.OCX
+Uses26=RICHTX32.OCX
+Uses27=TABCTL32.OCX
+Uses28=MSCOMCTL.OCX
+Uses29=MSCOMCT2.OCX
+Uses30=CHARTWIZ.OCX
+Uses31=MSCHRT20.OCX
+Uses32=MSRDC20.OCX
+Uses33=COMCT332.OCX
+Uses34=FlshTray.ocx
+
+[EXCEL.EXE <0009>]
+Dest=$(AppPath)
+Date=13/08/2003
+Time=10:34
+Version=11.0.5612.0
+
+[nscompat.tlb <0009>]
+Dest=$(WinSysPath)
+Date=20/10/2005
+Time=13:42
+Version=0.0.0.0
+
+[MSDE.DLL <0009>]
+Dest=$(WinSysPath)
+Date=23/02/2004
+Time=00:00
+Version=6.1.97.82
+
+[FM20.DLL <0009>]
+Dest=$(WinSysPath)
+Date=03/08/2003
+Time=18:56
+Version=11.0.5601.0
+
+[CHARTWIZ.OCX <0009>]
+Dest=$(WinSysPath)
+Date=24/06/1998
+Time=00:00
+Version=6.0.0.8177
+
+[FlshTray.ocx <0009>]
+Dest=$(WinSysPath)
+Date=11/04/1998
+Time=00:53
+Version=1.0.0.0

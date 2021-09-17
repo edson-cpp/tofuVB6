@@ -1,0 +1,351 @@
+[Root]
+Most Recent Package=Instalar
+
+
+[Package|PizzaTime|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\dados\PizzaTime
+
+[Package|PizzaTime|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=Yes
+Text=No
+Jet 2.x=No
+Paradox=No
+
+[Package|PizzaTime|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=Yes
+
+[Package|PizzaTime|Files Found]
+
+[Package|PizzaTime|Files Released]
+
+[Package|PizzaTime|Missing Dependency Information]
+C:\dados\PizzaTime\ocx\FlshTray.ocx=
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=
+C:\WINDOWS\SYSTEM32\FM20.DLL=
+C:\Arquivos de programas\Arquivos comuns\designer\MSDE.DLL=
+C:\WINDOWS\SYSTEM32\nscompat.tlb=
+C:\Arquivos de programas\Microsoft Office\OFFICE11\EXCEL.EXE=
+
+[Package|PizzaTime|Out-of-Date Dependency Information]
+
+[Package|PizzaTime|Files Added]
+
+[Package|PizzaTime|Files Removed]
+
+[Package|PizzaTime|Files In Project]
+C:\dados\PizzaTime\PizzaTime.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\designer\MSDERUN.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\msado15.dll=Yes
+C:\Arquivos de programas\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+C:\WINDOWS\SYSTEM32\nscompat.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=Yes
+C:\WINDOWS\SYSTEM32\odbc32.dll=Yes
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\designer\MSDE.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.dll=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJtEr35.dll=Yes
+C:\WINDOWS\SYSTEM32\MSJInt35.dll=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2x35.dll=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM32\FM20.DLL=Yes
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSRDC20.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMCT332.OCX=Yes
+C:\dados\PizzaTime\ocx\FlshTray.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSEXCL35.DLL=Yes
+
+[Package|PizzaTime|Configure Registry Files]
+Applicable=
+
+[Package|PizzaTime|Configure Remote Servers]
+Applicable=
+
+[Package|PizzaTime|Install Locations]
+C:\dados\PizzaTime\PizzaTime.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\msado15.dll=$(CommonFilesSys)\ADO
+C:\Arquivos de programas\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM32\nscompat.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\odbc32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Arquivos de programas\Arquivos comuns\designer\MSDE.DLL=$(WinSysPath)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJtEr35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJInt35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\FM20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMCT332.OCX=$(WinSysPath)
+C:\dados\PizzaTime\ocx\FlshTray.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSEXCL35.DLL=$(WinSysPathSysFile)
+
+[Package|PizzaTime|Configure Shared Files]
+Applicable=
+
+[Package|PizzaTime|DepFile]
+DepCabFile=PizzaTime.CAB
+DepCabRun=PizzaTime.INF
+
+[Package|PizzaTime|Package]
+PackageFolder=C:\dados\PizzaTime
+ProjectFolder=C:\dados\PizzaTime
+ServerSideCab=
+File1=C:\dados\PizzaTime\PizzaTime.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Instalar|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\PizzaTime
+
+[Package|Instalar|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=Yes
+Text=No
+Jet 2.x=No
+Paradox=No
+
+[Package|Instalar|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=Yes
+
+[Package|Instalar|Files Found]
+
+[Package|Instalar|Files Released]
+
+[Package|Instalar|Missing Dependency Information]
+C:\dados\PizzaTime\ocx\FlshTray.ocx=
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=
+C:\WINDOWS\SYSTEM32\FM20.DLL=
+C:\Arquivos de programas\Arquivos comuns\designer\MSDE.DLL=
+C:\WINDOWS\SYSTEM32\nscompat.tlb=
+C:\Arquivos de programas\Microsoft Office\OFFICE11\EXCEL.EXE=
+
+[Package|Instalar|Out-of-Date Dependency Information]
+
+[Package|Instalar|Files Added]
+
+[Package|Instalar|Files Removed]
+
+[Package|Instalar|Files In Project]
+C:\dados\PizzaTime\PizzaTime.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\designer\MSDERUN.DLL=Yes
+C:\Arquivos de programas\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+C:\WINDOWS\SYSTEM32\nscompat.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\designer\MSDE.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.dll=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJtEr35.dll=Yes
+C:\WINDOWS\SYSTEM32\MSJInt35.dll=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2x35.dll=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM32\FM20.DLL=Yes
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSRDC20.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMCT332.OCX=Yes
+C:\dados\PizzaTime\ocx\FlshTray.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSEXCL35.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Instalar|Configure Registry Files]
+Applicable=No
+
+[Package|Instalar|Configure Remote Servers]
+Applicable=No
+
+[Package|Instalar|Install Locations]
+C:\dados\PizzaTime\PizzaTime.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Arquivos de programas\Arquivos comuns\SYSTEM\ADO\msado15.dll=$(CommonFilesSys)\ADO
+C:\Arquivos de programas\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM32\nscompat.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\odbc32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Arquivos de programas\Arquivos comuns\designer\MSDE.DLL=$(WinSysPath)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJtEr35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJInt35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\FM20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMCT332.OCX=$(WinSysPath)
+C:\dados\PizzaTime\ocx\FlshTray.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Instalar|Configure Shared Files]
+Applicable=Yes
+C:\dados\PizzaTime\PizzaTime.exe=Yes
+C:\Arquivos de programas\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Instalar|DepFile]
+DepCabFile=PizzaTime.CAB
+DepCabRun=PizzaTime.INF
+
+[Package|Instalar|Distribution]
+Type=single
+Size=
+Title=PizzaTime
+
+[Package|Instalar|IconGroups]
+Group0=PizzaTime
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Instalar|PizzaTime]
+Icon1=PizzaTime.exe
+Title1=PizzaTime
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Instalar|Package]
+PackageFolder=C:\PizzaTime
+ProjectFolder=C:\dados\PizzaTime
+ServerSideCab=
+File1=C:\PizzaTime\setup.exe
+File2=C:\PizzaTime\Setup.Lst
+File3=C:\PizzaTime\PizzaTime.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
